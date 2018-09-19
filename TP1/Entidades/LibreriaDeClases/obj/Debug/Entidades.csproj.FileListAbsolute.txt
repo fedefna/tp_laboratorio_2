@@ -1,0 +1,6 @@
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\LibreriaDeClases\bin\Debug\LibreriaDeClases.dll
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\LibreriaDeClases\bin\Debug\LibreriaDeClases.pdb
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\LibreriaDeClases\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\LibreriaDeClases\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\LibreriaDeClases\obj\Debug\LibreriaDeClases.dll
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\LibreriaDeClases\obj\Debug\LibreriaDeClases.pdb

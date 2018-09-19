@@ -91,6 +91,8 @@
             // 
             // cmbOperador
             // 
+            this.cmbOperador.AccessibleDescription = "";
+            this.cmbOperador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOperador.FormattingEnabled = true;
             this.cmbOperador.Items.AddRange(new object[] {
             "*",
@@ -101,6 +103,7 @@
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(92, 21);
             this.cmbOperador.TabIndex = 5;
+            this.cmbOperador.SelectedIndex = 1;
             // 
             // lblResultado
             // 

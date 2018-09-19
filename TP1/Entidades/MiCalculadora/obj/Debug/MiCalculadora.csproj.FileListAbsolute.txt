@@ -1,9 +1,6 @@
 C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe.config
 C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe
 C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.pdb
-C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\bin\Debug\Entidades.exe
-C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
-C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\bin\Debug\Entidades.exe.config
 C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
 C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
 C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
@@ -26,3 +23,5 @@ C:\Users\fede\Desktop\TP\tp_laboratorio_2\TP1\Entidades\MiCalculadora\obj\Debug\
 C:\Users\fede\Desktop\TP\tp_laboratorio_2\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
 C:\Users\fede\Desktop\TP\tp_laboratorio_2\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
 C:\Users\fede\Desktop\TP\tp_laboratorio_2\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\bin\Debug\LibreriaDeClases.dll
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\TP1\Entidades\MiCalculadora\bin\Debug\LibreriaDeClases.pdb
