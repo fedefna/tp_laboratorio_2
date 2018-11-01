@@ -1,8 +1,11 @@
-﻿using System;
+﻿using Excepciones;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+
 
 namespace Clases_Abstractas
 {
@@ -13,7 +16,7 @@ namespace Clases_Abstractas
     }
     #endregion
 
-    abstract class Persona
+    public abstract class Persona
     {
         #region Atributos
         private string apellido;
@@ -112,12 +115,28 @@ namespace Clases_Abstractas
         /// </summary>
         /// <param name="nacionalidad">nacionalidad de la persona</param>
         /// <param name="dato">dni de la persona</param>
-        /// <returns>Devuelve el nro de dni si es valido, sino devuelve NacionalidadInvalidaException</returns>
+        /// <returns>Devuelve el nro de dni si es valido, sino devuelve NacionalidadInvalidaException o DniInvalidoException</returns>
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            int retorno = 0;
-
-            return retorno;
+            if(1>dato || dato> 99999999)
+            {
+                throw new DniInvalidoException("Nro de DNI invalido.");
+            }
+            if (1 <= dato && dato<= 89999999)
+            {
+                if (nacionalidad != ENacionalidad.Argentino)
+                {
+                    throw new NacionalidadInvalidaException("Nacionalidad incorrecta para este nro de DNI.");
+                }
+            }
+            else
+            {
+                if (nacionalidad != ENacionalidad.Extranjero)
+                {
+                    throw new NacionalidadInvalidaException("Nacionalidad incorrecta para este nro de DNI.");
+                }
+            }
+            return dato;
         }
 
         /// <summary>
@@ -128,9 +147,18 @@ namespace Clases_Abstractas
         /// <returns>El dni o si dni tiene formato erroneo DniInvalidoException o si dni no valida rangos la NacionalidadInvalidaException</returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
-            int retorno = 0;
+            int numero;
 
-            return retorno;
+            bool resultado = Int32.TryParse(dato, out numero);
+
+            if (resultado)
+            {
+                return ValidarDni(nacionalidad, numero);
+            }
+            else
+            {
+                throw new DniInvalidoException("El formato del dni es incorrecto.");
+            }
         }
 
         /// <summary>
@@ -140,9 +168,11 @@ namespace Clases_Abstractas
         /// <returns>Devuelve el nombre o una cadena vacia</returns>
         private string ValidarNombreApellido(string dato)
         {
-            string retorno = "";
-
-            return retorno;
+            if (Regex.IsMatch(dato, @"^([a-zA-Záéíóú]+)(\s[a-zA-Záéíóú]+)*$"))
+            {
+                return dato;
+            }
+            return "";
         }
         #endregion
     }
