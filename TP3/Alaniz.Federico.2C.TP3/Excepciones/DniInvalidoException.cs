@@ -13,7 +13,7 @@ namespace Excepciones
         /// </summary>
         public DniInvalidoException()
         {
-
+           
         }
 
         /// <summary>
