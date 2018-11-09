@@ -42,13 +42,13 @@ namespace Archivos
         /// <returns>true si leyó, false si hay exception</returns>
         public bool Leer(string archivo, out string datos)
         {
-            StreamWriter file = null;
+            StreamReader file = null;
             bool retorno = true;
 
             try
             {
-                file = new StreamWriter(archivo);
-                datos = file.RoadToEnd();
+                file = new StreamReader(archivo);
+                datos = file.ReadToEnd();
             }
             catch (Exception)
             {

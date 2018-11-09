@@ -7,7 +7,7 @@ using Clases_Abstractas;
 
 namespace Clases_Instanciables
 {
-    sealed class Profesor:Universitario
+    public sealed class Profesor:Universitario
     {
         #region Atributos
         private Queue<Universidad.EClases> clasesDelDia;

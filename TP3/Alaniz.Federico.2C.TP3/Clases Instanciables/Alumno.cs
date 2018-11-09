@@ -7,7 +7,7 @@ using Clases_Abstractas;
 
 namespace Clases_Instanciables
 {
-    sealed class Alumno:Universitario
+    public sealed class Alumno:Universitario
     {
         #region Enumerado de Estados de Cuenta
         public enum EEstadoCuenta

@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Archivos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excepciones;
 
 namespace Clases_Instanciables
 {
-    class Jornada
+    public class Jornada
     {
         #region Atributos
         private List<Alumno> alumnos;
@@ -43,19 +45,29 @@ namespace Clases_Instanciables
         /// </summary>
         /// <param name="jornada">Jornada de la cual se sacan los datos</param>
         /// <returns>true or false</returns>
-        public bool Guardar(Jornada jornada)
+        public static bool Guardar(Jornada jornada)
         {
-            bool retorno = false;
-
-
-
+            Texto texto = new Texto();
+            bool retorno = true;
+            if (!(texto.Guardar("Jornada.txt", jornada.ToString())))
+            {
+                retorno = false;
+                throw new ArchivoTxtException("No se puede guardar el archivo TXT.");
+            }
             return retorno;
         }
-
-        public string Leer()
+        /// <summary>
+        ///  Leer de clase retornará los datos de la Jornada como texto.
+        /// </summary>
+        /// <returns>retornará los datos de la Jornada como texto.</returns>
+        public static string Leer()
         {
-            string retorno="";
-
+            Texto texto = new Texto();
+            string retorno = "No se pudo leer el archivo.";
+            if (!(texto.Leer("Jornada.txt", out retorno)))
+            {
+                throw new ArchivoTxtException("Error al leer el archivo TXT.");
+            }
             return retorno;
         }
 
