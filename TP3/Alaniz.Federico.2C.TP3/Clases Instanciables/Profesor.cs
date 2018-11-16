@@ -45,7 +45,6 @@ namespace Clases_Instanciables
         }
         #endregion
 
-
         #region Metodos
         /// <summary>
         /// Un profesor es igual a una clase si da la clase
@@ -119,7 +118,6 @@ namespace Clases_Instanciables
         }
 
         #endregion
-
 
     }
 }
