@@ -52,7 +52,7 @@ namespace Clases_Instanciables
             if (!(texto.Guardar("Jornada.txt", jornada.ToString())))
             {
                 retorno = false;
-                throw new ArchivoTxtException("No se puede guardar el archivo TXT.");
+                throw new ArchivosException("No se puede guardar el archivo TXT.");
             }
             return retorno;
         }
@@ -66,7 +66,7 @@ namespace Clases_Instanciables
             string retorno = "No se pudo leer el archivo.";
             if (!(texto.Leer("Jornada.txt", out retorno)))
             {
-                throw new ArchivoTxtException("Error al leer el archivo TXT.");
+                throw new ArchivosException("Error al leer el archivo TXT.");
             }
             return retorno;
         }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
+using Archivos;
 
 namespace Clases_Instanciables
 {
@@ -81,7 +82,7 @@ namespace Clases_Instanciables
         {
             get
             {
-                if(i>=0 && i <= this.Jornadas.Count)
+                if (i >= 0 && i <= this.Jornadas.Count)
                 {
                     return this.Jornadas[i];
                 }
@@ -95,7 +96,7 @@ namespace Clases_Instanciables
             {
                 if (i >= 0 && i <= this.Jornadas.Count)
                 {
-                    this.Jornadas[i]=value;
+                    this.Jornadas[i] = value;
                 }
             }
         }
@@ -104,8 +105,8 @@ namespace Clases_Instanciables
         #region Constructor
         public Universidad()
         {
-            this.alumnos= new List<Alumno>();
-            this.jornadas= new List<Jornada>();
+            this.alumnos = new List<Alumno>();
+            this.jornadas = new List<Jornada>();
             this.profesores = new List<Profesor>();
         }
         #endregion
@@ -121,10 +122,26 @@ namespace Clases_Instanciables
         {
             bool retorno = false;
             Xml<Universidad> aux = new Xml<Universidad>();
-            
-            if (aux.Guardar("Universidad.xml", gim) == false)
+
+            if (aux.Guardar("Universidad.xml", uni) == false)
             { //Si no se pudo guardar lanza la excepción.
                 throw new ArchivosException("No se pudo guardar la universidad.");
+            }
+
+            return retorno;
+        }
+        /// <summary>
+        /// Desserializa los datos de una universidad para mostrarlos
+        /// </summary>
+        /// <returns>La universidad con todos los datos del xml</returns>
+        public static Universidad Leer()
+        {
+            Universidad retorno;
+            Xml <Universidad> aux = new Xml<Universidad>();
+
+            if (!(aux.Leer("Universidad.xml",out retorno)))
+            {
+                throw new ArchivosException("No se pudo leer el archivo xml.");
             }
 
             return retorno;
@@ -236,6 +253,9 @@ namespace Clases_Instanciables
                     jornada.Alumnos.Add(a);
                 }
             }
+            g.Jornadas.Add(jornada);
+
+            return g;
         }
         /// <summary>
         /// Inscribe a un alumno a la universidad (Siempre que no esté ya inscripto).
@@ -253,6 +273,7 @@ namespace Clases_Instanciables
             {
                 throw new AlumnoExistenteException();
             }
+            return u;
         }
         /// <summary>
         /// Inscribe a un profesor a la universidad (Siempre que no esté ya inscripto).
@@ -270,7 +291,7 @@ namespace Clases_Instanciables
             {
                 throw new ProfesorExistenteException();
             }
-
+            return u;
         }
         #endregion
     }

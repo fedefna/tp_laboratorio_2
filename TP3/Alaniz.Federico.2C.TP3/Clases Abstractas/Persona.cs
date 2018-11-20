@@ -9,15 +9,16 @@ using System.Threading.Tasks;
 
 namespace Clases_Abstractas
 {
-    #region Enumerado de Nacionalidades
-    public enum ENacionalidad
-    {
-        Argentino,Extranjero
-    }
-    #endregion
 
     public abstract class Persona
     {
+        #region Enumerado de Nacionalidades
+        public enum ENacionalidad
+        {
+            Argentino, Extranjero
+        }
+        #endregion
+
         #region Atributos
         private string apellido;
         private int dni;
@@ -51,7 +52,7 @@ namespace Clases_Abstractas
         /// </summary>
         public string StringToDni
         {
-            set => dni = ValidarDni(this.nacionalidad, value);
+            set => this.dni = ValidarDni(this.nacionalidad, value);
         }
         #endregion
 
@@ -122,7 +123,7 @@ namespace Clases_Abstractas
             {
                 throw new DniInvalidoException("Nro de DNI invalido.");
             }
-            if (1 <= dato && dato<= 89999999)
+            if (dato<= 89999999)
             {
                 if (nacionalidad != ENacionalidad.Argentino)
                 {
@@ -148,17 +149,17 @@ namespace Clases_Abstractas
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             int numero;
-
-            bool resultado = Int32.TryParse(dato, out numero);
-
-            if (resultado)
+            
+            if (Regex.IsMatch(dato, @"^[0-9]+[0-9\.]*$"))
             {
-                return ValidarDni(nacionalidad, numero);
+                dato = dato.Replace(".", "");
+                Int32.TryParse(dato, out numero);
             }
             else
             {
                 throw new DniInvalidoException("El formato del dni es incorrecto.");
             }
+            return ValidarDni(nacionalidad, numero);
         }
 
         /// <summary>

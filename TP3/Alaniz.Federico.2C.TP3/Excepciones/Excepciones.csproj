@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlumnoExistenteException.cs" />
-    <Compile Include="ArchivoTxtException.cs" />
+    <Compile Include="ArchivosException.cs" />
     <Compile Include="DniInvalidoException.cs" />
     <Compile Include="NacionalidadInvalidaException.cs" />
     <Compile Include="ProfesorExistenteException.cs" />
