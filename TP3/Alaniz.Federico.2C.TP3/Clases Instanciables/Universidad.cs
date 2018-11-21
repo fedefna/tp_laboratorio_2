@@ -157,8 +157,9 @@ namespace Clases_Instanciables
             StringBuilder sb = new StringBuilder();
             foreach(Jornada j in uni.Jornadas)
             {
-                sb.AppendFormat("JORNADA:");
-                sb.AppendFormat(j.ToString());
+                sb.AppendLine("JORNADA:");
+                sb.AppendLine(j.ToString());
+                sb.AppendLine("< ------------------------------------------------------------------- >");
             }
             return sb.ToString();
         }

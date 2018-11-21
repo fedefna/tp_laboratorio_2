@@ -91,10 +91,10 @@ namespace Clases_Instanciables
         protected override string ParticiparEnClase()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("\nCLASES DEL DIA: ");
+            sb.AppendLine("CLASES DEL DIA: ");
             foreach (Universidad.EClases c in this.clasesDelDia)
             {
-                sb.AppendFormat("\n{0}", c);
+                sb.AppendFormat("{0}\n", c);
             }
             return sb.ToString();
         }
@@ -105,7 +105,8 @@ namespace Clases_Instanciables
         protected override string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0}{1}.", base.MostrarDatos(), this.ParticiparEnClase());
+            sb.AppendLine(base.MostrarDatos());
+            sb.AppendLine(this.ParticiparEnClase());
             return sb.ToString();
         }
         /// <summary>

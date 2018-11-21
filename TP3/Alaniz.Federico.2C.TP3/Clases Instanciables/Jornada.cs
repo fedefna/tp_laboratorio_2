@@ -113,10 +113,11 @@ namespace Clases_Instanciables
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Clase: {0}/nInstructor: {1}/nLista de Alumnos:",this.Clase,this.Instructor.ToString());
+            sb.AppendFormat("CLASE DE {0} POR {1}", this.Clase,this.Instructor.ToString());
+            sb.AppendLine("ALUMNOS:");
             foreach(Alumno a in this.Alumnos)
             {
-                sb.AppendFormat("/n{0}",a);
+                sb.AppendFormat(a.ToString());
             }
             return sb.ToString();
         }
