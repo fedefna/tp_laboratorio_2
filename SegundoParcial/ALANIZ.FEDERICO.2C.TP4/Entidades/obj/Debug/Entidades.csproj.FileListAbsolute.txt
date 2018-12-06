@@ -1,0 +1,12 @@
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\B041230\Desktop\TP4\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\B041230\Desktop\TP4\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\B041230\Desktop\TP4\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\B041230\Desktop\TP4\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\B041230\Desktop\TP4\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\B041230\Desktop\TP4\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\bin\Debug\Entidades.pdb
