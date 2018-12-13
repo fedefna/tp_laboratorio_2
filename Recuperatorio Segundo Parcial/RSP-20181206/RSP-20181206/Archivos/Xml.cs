@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace Archivos
 {
-    class Xml<T>
+    public class Xml<T>:IArchivo<T>
     {
         public void Guardar(string destino, T dato)
         {
@@ -16,7 +16,10 @@ namespace Archivos
             xtw = new XmlTextWriter(destino, Encoding.UTF8);
             XmlSerializer ser = new XmlSerializer(typeof(T));
             ser.Serialize(xtw, dato);
-            xtw.Close();
+            if (!(xtw is null))
+            {
+                xtw.Close();
+            }
         }
 
         public T Leer(string origen)
@@ -24,7 +27,10 @@ namespace Archivos
             XmlTextReader xtr = new XmlTextReader(origen);
             XmlSerializer ser = new XmlSerializer(typeof(T));
             T aux = (T)ser.Deserialize(xtr);
-            xtr.Close();
+            if (!(xtr is null))
+            {
+                xtr.Close();
+            }
             return aux;
         }
     }

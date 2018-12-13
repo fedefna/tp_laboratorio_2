@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public delegate string DelegadoMensaje(string mensaje);
+    public delegate void DelegadoMensaje(string mensaje);
     
     public class Agencia
     {
@@ -23,7 +23,7 @@ namespace Entidades
             pasajesVendidos = new List<Pasaje>();
         }
 
-        public Agencia(string nombre)
+        public Agencia(string nombre):this()
         {
             this.Nombre = nombre;
         }
@@ -33,7 +33,7 @@ namespace Entidades
             bool retorno = false;
             foreach(Pasaje aux in a.PasajesVendidos)
             {
-                if (p==aux)
+                if (aux==p)
                 {
                     retorno = true;
                 }
@@ -51,11 +51,11 @@ namespace Entidades
             if (a != p)
             {
                 a.pasajesVendidos.Add(p);
-                a.Informar.Invoke("Pasaje emitido correctamente.");
+                a.Informar("Pasaje emitido correctamente.");
             }
             else
             {
-                a.Informar.Invoke("El pasaje ya fue emitido con anterioridad.");
+                a.Informar("El pasaje ya fue emitido con anterioridad.");
             }
             return a;
         }

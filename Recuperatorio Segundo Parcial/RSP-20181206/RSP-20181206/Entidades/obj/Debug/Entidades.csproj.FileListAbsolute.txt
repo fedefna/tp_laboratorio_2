@@ -1,0 +1,6 @@
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\Recuperatorio Segundo Parcial\RSP-20181206\RSP-20181206\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\Recuperatorio Segundo Parcial\RSP-20181206\RSP-20181206\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\Recuperatorio Segundo Parcial\RSP-20181206\RSP-20181206\Entidades\bin\Debug\Entidades.dll
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\Recuperatorio Segundo Parcial\RSP-20181206\RSP-20181206\Entidades\bin\Debug\Entidades.pdb
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\Recuperatorio Segundo Parcial\RSP-20181206\RSP-20181206\Entidades\obj\Debug\Entidades.dll
+C:\Users\fede\Desktop\New folder\tp_laboratorio_2\Recuperatorio Segundo Parcial\RSP-20181206\RSP-20181206\Entidades\obj\Debug\Entidades.pdb

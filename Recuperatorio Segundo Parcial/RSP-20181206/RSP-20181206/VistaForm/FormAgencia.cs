@@ -1,5 +1,7 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 using Entidades;
+using Archivos;
 
 namespace VistaForm
 {
@@ -27,16 +29,63 @@ namespace VistaForm
 
         private void btnEmitirPasaje_Click(object sender, System.EventArgs e)
         {
+            Pasajero pasajero = new Pasajero(txtNombre.Text, txtApellido.Text, txtDni.Text);
+            Pasaje pasaje = null;
 
+            if (cmbTipoPasaje.Text == "Avion")
+            {
+                pasaje = new PasajeAvion(txtOrigen.Text, txtDestino.Text, pasajero, float.Parse(txtPrecio.Text), dtpFechaPartida.Value, int.Parse(nudEscalas.ToString()));
+            }
+            else
+                if(cmbTipoPasaje.Text == "Micro")
+                {
+                    Servicio servicio = Servicio.Comun;
+                    if (cmbTipoServicio.Text == "Ejecutivo")
+                    {
+                        servicio = Servicio.Ejecutivo;
+                    }
+                    else
+                    {
+                        if(cmbTipoServicio.Text == "SemiCama")
+                        {
+                            servicio = Servicio.SemiCama;
+                        }
+                    }
+                try
+                {
+                    pasaje = new PasajeMicro(txtOrigen.Text, txtDestino.Text, pasajero, float.Parse(txtPrecio.Text), dtpFechaPartida.Value, servicio);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Complete todos los datos");
+                }
+                }
+            agencia+=pasaje;
         }
 
         private void btnMostrar_Click(object sender, System.EventArgs e)
         {
-
+            if(!(agencia.PasajesVendidos is null))
+            {
+                rtbMostrar.Text = (string)agencia;
+            }
+            else
+            {
+                MessageBox.Show("Agencia vacia");
+            }
         }
 
         private void btnGuardar_Click(object sender, System.EventArgs e)
         {
+            Xml<Agencia> xml = new Xml<Agencia>();
+            try
+            {
+                xml.Guardar("Agencia.xml", agencia);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
 
@@ -60,6 +109,14 @@ namespace VistaForm
             Application.Exit();
         }
 
-        
+        private void FormAgencia_Load(object sender, EventArgs e)
+        {
+            agencia.Informar += MostrarMensaje;
+        }
+
+        private void MostrarMensaje(string mensaje)
+        {
+            MessageBox.Show(mensaje);
+        }
     }
 }

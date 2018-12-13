@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class ClaveInvalidaException : Exception
+    public class ClaveInvalidaException : Exception
     {
         public ClaveInvalidaException(string mensaje) : this(mensaje, null)
         { }

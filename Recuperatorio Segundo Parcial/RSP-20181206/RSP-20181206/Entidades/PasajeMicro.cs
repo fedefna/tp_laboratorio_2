@@ -6,12 +6,28 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
+    public enum Servicio
+    {
+        Comun, SemiCama, Ejecutivo
+    }
+
     public class PasajeMicro : Pasaje
     {
         #region Campos
-        public Servicio.EServicio servicio;
+        public Servicio tipoServicio;
         #endregion
 
+
+        #region Constructor
+        public PasajeMicro() { }
+
+        public PasajeMicro(string origen, string destino, Pasajero pasajero, float precio, DateTime fecha, Servicio tipoServicio)
+        : base(origen, destino, pasajero, precio, fecha)
+        {
+            this.tipoServicio = tipoServicio;
+        }
+
+        #endregion
         #region Properties
         public override float PrecioFinal
         {
@@ -19,13 +35,13 @@ namespace Entidades
             {
                 float retorno = 0;
                 float aux = 0;
-                switch (this.servicio)
+                switch (this.tipoServicio)
                 {
-                    case Servicio.EServicio.SemiCama:
+                    case Servicio.SemiCama:
                         aux = (this.Precio * 10) / 100;
                         retorno = this.Precio + aux;
                         break;
-                    case Servicio.EServicio.Ejecutivo:
+                    case Servicio.Ejecutivo:
                         aux = (this.Precio * 20) / 100;
                         retorno = this.Precio + aux;
                         break;
@@ -43,7 +59,7 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat(base.Mostrar());
-            sb.AppendFormat("Servicio: {0}.", this.servicio);
+            sb.AppendFormat("Servicio: {0}.", this.tipoServicio);
             return sb.ToString();
         }
         #endregion
