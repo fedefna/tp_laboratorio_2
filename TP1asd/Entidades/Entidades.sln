@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Express 15 for Windows Desktop
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{E288E137-251D-490D-8741-AB6F564DC912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCalculadora", "MiCalculadora\MiCalculadora.csproj", "{06ACD823-CE54-4831-8B18-C5D063E383EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E288E137-251D-490D-8741-AB6F564DC912}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E288E137-251D-490D-8741-AB6F564DC912}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E288E137-251D-490D-8741-AB6F564DC912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06ACD823-CE54-4831-8B18-C5D063E383EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06ACD823-CE54-4831-8B18-C5D063E383EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06ACD823-CE54-4831-8B18-C5D063E383EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06ACD823-CE54-4831-8B18-C5D063E383EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

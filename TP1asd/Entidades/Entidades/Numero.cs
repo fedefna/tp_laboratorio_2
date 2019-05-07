@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Numero
+    public class Numero
     {
-        //Atributos
+        #region Atributes
         private double numero;
+        #endregion
 
-        //Properties
+        #region Properties
         public string setNumero
         {
-            set 
+            set
             {
                 this.numero = ValidarNumero(value);
             }
         }
+        #endregion
 
-        //Constructores
+        #region Constructors
         public Numero()
         {
             this.numero = 0;
@@ -35,8 +37,9 @@ namespace Entidades
         {
             setNumero = strNumero;
         }
+        #endregion
 
-        //Metodos
+        #region Methods
         /// <summary>
         /// si se puede parsear strNumero a souble lo guardo en num y lo asigno a result
         /// </summary>
@@ -45,8 +48,8 @@ namespace Entidades
         private static double ValidarNumero(string strNumero)
         {
             double result = 0;
-            
-            if (double.TryParse(strNumero,out double num))
+
+            if (double.TryParse(strNumero, out double num))
             {
                 result = num;
             }
@@ -69,7 +72,7 @@ namespace Entidades
             Array.Reverse(array);
 
             for (int i = 0; i < array.Length; i++)
-            {                
+            {
                 if (array[i] == '1')
                 {
                     // potencia de 2, según la posición
@@ -77,14 +80,15 @@ namespace Entidades
                 }
                 else
                 {
-                    if(array[i] != '0')
+                    if (array[i] != '0')
                     {
                         aux = 1;
                         break;
                     }
                 }
             }
-            if (aux==0){
+            if (aux == 0)
+            {
                 result = resultado.ToString();
             }
             return result;
@@ -96,31 +100,87 @@ namespace Entidades
         /// <returns>devuelve el binario en formato string caso contrario:"Valor invalido".</returns>
         public string DecimalBinario(double numero)
         {
-            string binario = "Valor invalido.";
-            string aux = "";
+            string binario = "";
 
             while (numero != 0 && numero != 1)
             {
                 if (numero % 2 == 0)
                 {
-                    aux = "0" + aux;
+                    binario = "0" + binario;
                 }
                 else
                 {
-                    aux = "1" + aux;
+                    binario = "1" + binario;
                 }
 
                 numero = Math.Truncate(numero / 2);
             }
 
-            aux = numero + binario;
+            binario = numero + binario;
+
             return binario;
         }
-
+        /// <summary>
+        /// cmabia el decimal a binario
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <returns>Devuelve el binario del numero ingresado o "Numero invalido" en caso contrario.</returns>
         public string DecimalBinario(string numero)
         {
+            string result = "Numero invalido!";
 
+            if (double.TryParse(numero, out double num))
+            {
+                result = DecimalBinario(num);
+            }
+            return result;
         }
+        #endregion
+
+        #region Operators
+        public static double operator +(Numero n1, Numero n2)
+        {
+            double num;
+
+            num = n1.numero + n2.numero;
+
+            return num;
+        }
+
+        public static double operator -(Numero n1, Numero n2)
+        {
+            double result;
+
+            result = n1.numero - n2.numero;
+
+            return result;
+        }
+
+        public static double operator /(Numero n1, Numero n2)
+        {
+            double result;
+
+            if (n2.numero == 0)
+            {
+                result = double.MinValue;
+            }
+            else
+            {
+                result = n1.numero / n2.numero;
+            }
+
+            return result;
+        }
+
+        public static double operator *(Numero n1, Numero n2)
+        {
+            double result;
+
+            result = n1.numero * n2.numero;
+
+            return result;
+        }
+        #endregion
 
     }
 }
