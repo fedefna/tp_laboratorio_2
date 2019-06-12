@@ -28,6 +28,50 @@ namespace Clases_Abstractas
 
         #endregion
 
+        #region Constructors
+        /// <summary>
+        /// Constructor por defecto
+        /// </summary>
+        public Persona()
+        {
+
+        }
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="nacionalidad"></param>
+        public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
+        {
+
+        }
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
+        public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad)
+        {
+
+        }
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
+        public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad)
+        {
+
+        }
+
+        #endregion
+
+
         #region Properties
 
         public string Apellido
@@ -162,5 +206,16 @@ namespace Clases_Abstractas
         }
         #endregion
 
+        /// <summary>
+        /// Sobrescritura de ToString(). 
+        /// </summary>
+        /// <returns>Nombre completo y nacionalidad de la persona.</returns>
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("NOMBRE COMPLETO: {0}, {1}", this.Apellido, this.Nombre);
+            sb.AppendFormat("\nNACIONALIDAD: {0}", this.Nacionalidad);
+            return sb.ToString();
+        }
     }
 }
