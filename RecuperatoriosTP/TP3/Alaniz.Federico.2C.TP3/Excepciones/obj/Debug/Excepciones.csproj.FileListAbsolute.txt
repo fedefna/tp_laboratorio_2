@@ -1,0 +1,12 @@
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Excepciones\obj\Debug\Excepciones.pdb

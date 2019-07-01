@@ -1,0 +1,44 @@
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csprojAssemblyReference.cache
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csproj.CoreCompileInputs.cache
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Test Unitarios.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Test Unitarios.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Archivos.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Clases Abstractas.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Clases Instanciables.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Excepciones.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Archivos.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Clases Abstractas.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Clases Instanciables.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Excepciones.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csproj.CopyComplete
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Test Unitarios.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Test Unitarios.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Archivos.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Clases Abstractas.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Clases Instanciables.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Excepciones.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Archivos.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Clases Abstractas.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Clases Instanciables.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Excepciones.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csprojAssemblyReference.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csproj.CoreCompileInputs.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csproj.CopyComplete
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.pdb

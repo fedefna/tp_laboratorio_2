@@ -1,0 +1,26 @@
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Archivos.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Archivos.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb

@@ -1,0 +1,26 @@
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\obj\Debug\MainCorreo.Form1.resources
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\obj\Debug\MainCorreo.Form1.resources
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\RecuperatoriosTP\TP4\MainCorreo\obj\Debug\MainCorreo.pdb

@@ -1,6 +1,0 @@
-C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Archivos\bin\Debug\Archivos.dll
-C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Archivos\bin\Debug\Archivos.pdb
-C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
-C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
-C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Archivos\obj\Debug\Archivos.dll
-C:\Users\fede\Desktop\tp_laboratorio_2\TP3\Alaniz.Federico.2C.TP3\Archivos\obj\Debug\Archivos.pdb

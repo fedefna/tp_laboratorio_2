@@ -4,3 +4,9 @@ C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.
 C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.dll
 C:\Users\fede\Desktop\Fede Alaniz Capo\tp_laboratorio_2\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\PrimerCursada\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\PrimerCursada\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\PrimerCursada\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\PrimerCursada\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\PrimerCursada\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\alaniz\Documents\UTN\tp_laboratorio_2\PrimerCursada\RecuperatoriosTP\ALANIZ.FEDERICO.2C.TP4\Entidades\obj\Debug\Entidades.pdb
