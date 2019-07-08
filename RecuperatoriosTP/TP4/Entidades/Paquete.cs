@@ -113,7 +113,7 @@ namespace Entidades
         /// Comparo 2 paquetes para ver si son iguales
         /// </summary>
         /// <param name="p1"></param>
-        /// <param name="p2"></param>
+        /// <param name="p2"></param> 
         /// <returns>retorna verdadero o falso si los trakingID son iguales o no</returns>
         public static bool operator ==(Paquete p1, Paquete p2)
         {
